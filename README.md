@@ -1,2 +1,2 @@
 # java-lambda-simple-cicd
-Git Actionsでjunitでテストした後にAws Lambdaにデプロイする
+GitHub Actionsを使用して、JUnitテスト成功後に自動的にAWS Lambdaへデプロイします
