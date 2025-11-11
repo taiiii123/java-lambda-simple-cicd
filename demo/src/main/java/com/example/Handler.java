@@ -11,7 +11,6 @@ public class Handler implements RequestHandler<Map<String, String>, String> {
     public String handleRequest(Map<String, String> event, Context context) {
         String name = event.getOrDefault("name", "World");
         return String.format("Hello, %s!", name);
-        // 変更コメントを追加
     }
 
     public String processMessage(String message) {
