@@ -15,13 +15,13 @@ public class HandlerTest {
         event.put("name", "Lambda");
 
         String result = handler.handleRequest(event, null);
-        assertEquals("Hello, aaa!", result);
+        assertEquals("Hello, Lambda!", result);
     }
 
     @Test
     public void testProcessMessage() {
         Handler handler = new Handler();
         String result = handler.processMessage("test");
-        assertEquals("Processed: aaa", result);
+        assertEquals("Processed: test", result);
     }
 }
